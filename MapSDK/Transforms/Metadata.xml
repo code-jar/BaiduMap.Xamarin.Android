@@ -1,0 +1,23 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <attr path="/api/package[@name='com.baidu.mapapi']/class[@name='VersionInfo']/field[@name='VERSION_INFO']" name="name">Version</attr>
+  <attr path="/api/package[@name='com.baidu.mapapi.map']/interface[@name='BaiduMap.OnMapStatusChangeListener']/method[@name='onMapStatusChangeStart' and count(parameter)=2 and parameter[1][@type='com.baidu.mapapi.map.MapStatus'] and parameter[2][@type='int']]" name="managedName">OnMapStatusChangeStarted</attr>
+
+  <attr path="/api/package[@name='com.baidu.platform.comapi.wnplatform.walkmap']/class[@name='WNaviBaiduMap']/method[@name='getId' and count(parameter)=0]" name="managedName">IdVal</attr>
+  <!--<attr path="/api/package[@name='com.baidu.platform.comapi.wnplatform.walkmap']/class[@name='WNaviBaiduMap']/method[@name='setId' and count(parameter)=1 and parameter[1][@type='long']]" name="managedName">SetId</attr>-->
+  
+  <!--deprecated-->
+  <remove-node path="/api/package[@name='com.baidu.mapapi.search.poi']/interface[@name='OnGetPoiSearchResultListener']/method[@name='onGetPoiDetailResult' and count(parameter)=1 and parameter[1][@type='com.baidu.mapapi.search.poi.PoiDetailResult']]" />
+
+
+
+  <remove-node path="/api/package[@name='com.google.protobuf.micro']/class[@name='MessageMicro']/method[@name='mergeFrom' and count(parameter)=1 and parameter[1][@type='com.google.protobuf.micro.CodedInputStreamMicro']]" />
+  
+</metadata>

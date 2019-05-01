@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationSDK", "LocationSDK\LocationSDK.csproj", "{C09B7EE6-15F6-429B-8E08-0EB25DD45DAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapSDK", "MapSDK\MapSDK.csproj", "{D6AE1DC2-7BBF-4325-9E62-2AFD650D030B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C09B7EE6-15F6-429B-8E08-0EB25DD45DAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C09B7EE6-15F6-429B-8E08-0EB25DD45DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C09B7EE6-15F6-429B-8E08-0EB25DD45DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C09B7EE6-15F6-429B-8E08-0EB25DD45DAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6AE1DC2-7BBF-4325-9E62-2AFD650D030B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6AE1DC2-7BBF-4325-9E62-2AFD650D030B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6AE1DC2-7BBF-4325-9E62-2AFD650D030B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6AE1DC2-7BBF-4325-9E62-2AFD650D030B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B42E7AC-B3E1-4628-82E9-932FB724C743}
+	EndGlobalSection
+EndGlobal

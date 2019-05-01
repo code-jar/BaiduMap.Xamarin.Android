@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>BaiduMapLocation.Xamarin.Android</id>
+    <version>7.6.0</version>
+    <authors>ricarod_jar</authors>
+    <owners>ricarod_jar</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/code-jar/BaiduMap.Xamarin.Android</projectUrl>
+    <description>BaiduLocation android sdk Xamarin.Android bind</description>
+    <tags>百度地图定位</tags>
+  </metadata>
+<files>
+ <file src="..\LocationSDK\bin\Release\*.dll" target="lib\monoandroid81" />
+</files>
+</package>
