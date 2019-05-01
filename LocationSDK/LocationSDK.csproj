@@ -63,7 +63,7 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\BaiduLBS_Android.jar" />
+    <InputJar Include="Jars\BaiduLocationSdk.jar" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="readme.txt" />

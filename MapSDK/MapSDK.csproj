@@ -41,7 +41,6 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Additions\WNaviBaiduMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -69,7 +68,7 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\BaiduLBS_Android.jar" />
+    <InputJar Include="Jars\BaiduMapSdk.jar" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="readme.txt" />

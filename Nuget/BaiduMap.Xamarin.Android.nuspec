@@ -11,6 +11,6 @@
     <tags>百度地图定位</tags>
   </metadata>
 <files>
- <file src="..\MapSDK\bin\Release\*.dll" target="lib\monoandroid81" />
+ <file src="..\MapSDK\bin\Release\*.dll" target="lib\monoandroid50" />
 </files>
 </package>
